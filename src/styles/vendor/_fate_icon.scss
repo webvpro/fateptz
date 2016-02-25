@@ -1,0 +1,83 @@
+
+.fi{
+  display: inline-block;
+  box-sizing: border-box;
+  text-rendering: auto;
+
+  .fi-die-zero:before {
+    content: "\30";
+  }
+  .fi-die-plus:before {
+    content: "\2b";
+  }
+  .fi-die-minus:before {
+    content: "\2d";
+  }
+  .fi-action-attack:before {
+    content: "\61";
+  }
+  .fi-action-advantage:before {
+    content: "\63";
+  }
+  .fi-action-defend:before {
+    content: "\64";
+  }
+  .fi-action-overcome:before {
+    content: "\6f";
+  }
+  .fi-action-attack-bold:before {
+    content: "\41";
+  }
+  .fi-action-advantage-bold:before {
+    content: "\43";
+  }
+  .fi-action-defend-bold:before {
+    content: "\44";
+  }
+  .fi-action-overcome-bold:before {
+    content: "\4f";
+  }
+
+  /*stress boxes don't need these
+  .fi-stress-filled:before {
+      content: "\42";
+  }
+  .fi-b:before {
+      content: "\62";
+  }
+  .fi-nine:before {
+      content: "\39";
+  }
+  .fi-eight:before {
+      content: "\38";
+  }
+  .fi-one:before {
+      content: "\31";
+  }
+  .fi-two:before {
+      content: "\32";
+  }
+  .fi-three:before {
+      content: "\33";
+  }
+  .fi-four:before {
+      content: "\34";
+  }
+  .fi-five:before {
+      content: "\35";
+  }
+  .fi-six:before {
+      content: "\36";
+  }
+  .fi-seven:before {
+      content: "\37";
+  }
+
+  .fi-period:before {
+      content: "\2e";
+  }
+  */
+
+}
+
+
