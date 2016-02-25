@@ -2,6 +2,9 @@
 *.log
 
 node_modules
+firebase.json
+public
+.idea
 
 dist
 coverage
